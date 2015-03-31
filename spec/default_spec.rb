@@ -12,11 +12,6 @@ describe 'sample-cookbook::default' do
       create_template('/etc/httpd/conf.d/clowns.conf')
   end
 
-  it 'creates clowns2.conf' do
-    expect(chef_run).to \
-      create_template('/etc/httpd/conf.d/clowns2.conf')
-  end
-
   it 'creates bears.conf' do
     expect(chef_run).to \
       create_template('/etc/httpd/conf.d/bears.conf')
