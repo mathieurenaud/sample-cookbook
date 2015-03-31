@@ -1,4 +1,5 @@
 # sample-cookbook
 
 Re-creation of clowns/bears from Chef Fundamentals
-More Features
+- More Features
+- Testing syntax using knife!
