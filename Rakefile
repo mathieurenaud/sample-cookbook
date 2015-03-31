@@ -1,5 +1,5 @@
 desc 'Run all acceptance tests'
-task accept: [:syntax, :lint, :unit]
+task accept: [:syntax, :lint, :unit, :functional]
 
 desc 'Syntax check using knife'
 task :syntax do
